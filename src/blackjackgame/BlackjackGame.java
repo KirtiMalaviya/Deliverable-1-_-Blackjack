@@ -99,7 +99,7 @@ public class BlackjackGame {
         System.out.println(dealerHand);
         System.out.println("Dealer's hand value: " + dealerHand.getValue());
 
-        if (dealer()) {
+        if (dealerBusted()) {
             System.out.println("Dealer busts! Player wins.");
         } else if (playerWins()) {
             System.out.println("Player wins!");
